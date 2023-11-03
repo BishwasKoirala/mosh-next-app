@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main>
       <h1>Hello World</h1>
+      <Link href="./NavBar" />
       <Link href="/users">Users</Link>
       <ProductCard></ProductCard>
     </main>
