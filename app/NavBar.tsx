@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const NavBar = () => {
   return (
-    <div className=' flex bg-slate-200 p-5'>
+    <div className=' flex bg-slate-200 p-5 text-black'>
       <Link href='/' className='mr-5'>Next.js</Link>
       <Link href='/users'>Users</Link>
     </div>
