@@ -7,7 +7,7 @@ interface CloudinaryResult {
 }
 
 
-const uploadPage = () => {
+const UploadPage = () => {
   const [publicId,setPublicId] = useState('');
 
   return (
@@ -38,4 +38,4 @@ const uploadPage = () => {
   )
 }
 
-export default uploadPage
+export default UploadPage
