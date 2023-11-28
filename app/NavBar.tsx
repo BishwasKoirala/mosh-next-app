@@ -7,7 +7,7 @@ import Loading from './loading'
 const NavBar = () => {
   const {status, data:session} = useSession();
 
-  if (status === 'loading') return null;
+  // if (status === 'loading') return null;
   return (
     <div className=' flex bg-slate-200 p-5 text-black space-x-3'>
       <Link href='/' className='mr-5'>Next.js</Link>
