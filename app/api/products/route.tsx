@@ -3,7 +3,7 @@ import  schema  from "./schema";
 import prisma from "@/prisma/client";
 
 export async function GET(request:NextRequest){
-  const productuts = await prisma.product.findMany
+  const productuts = await prisma.product.findMany()
   return NextResponse.json(productuts)
 }
 
