@@ -1,16 +1,13 @@
 https://members.codewithmosh.com/courses/mastering-next-js-13-with-typescript-1/lectures/49120219
 
+abother oauth provider like github or so on
 
 
-
-1.abother oauth provider like github or so on
-
-
-2.next create a custom registrarion form that captures
+next create a custom registrarion form that captures
   username
   email
   password
 
 
-3.change password page
+change password page
 
